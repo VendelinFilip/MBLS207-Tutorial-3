@@ -57,7 +57,9 @@ ls -l
 ./ needleman_wunsch
 ./ smith_waterman
 
-# The information printed to screen should be all you need to know to run the software. Congrats, now let’s go back to your MBLS207 folder, create a folder for the next exercises, and you are ready to move ahead!
+# The information printed to screen should be all you need to know to run
+# the software. Congrats, now let’s go back to your MBLS207 folder, create
+# a folder for the next exercises, and you are ready to move ahead!
 cd <path -to - MBLS207 >
 mkdir tutorial3
 cd tutorial3
@@ -102,14 +104,16 @@ Now align them using the Needleman-Wunsch algorithm. Note that in order to acces
 
 How many bases were found to match? How many mismatches? How many gaps?
 
-**Exercise 5**
+## Exercise 5
 
 Run the same command but changing the gap extension penalty to -4 (hint: check out all possible software options by running it without any arguments or options). Does the result change? Which result do you trust more?
 
-**Exercise 6**
+## Exercise 6
 
 Now run a local alignment of the same sequences by running the program smith-waterman. The software produces two different alignments. What regions of the two sequences do they concern?
 
-**Exercise 7**
+## Exercise 7
 
 If your goal is to detect homologous sequences as a result of these alignments, what result do you trust more, and why?
+
+[Go to module 4 if you have trouble with `make`](04-Notes.md)
