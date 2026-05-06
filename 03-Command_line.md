@@ -1,7 +1,7 @@
 
 # 3 Now, from the command line!
 
-Download the file seq-align.zip from Blackboard, noting where exactly in your filesystem you are placing it. Now, open the `Terminal`.
+Download the file [seq-align.zip](seq-align.zip), noting where exactly in your filesystem you are placing it. Now, open the `Terminal`.
 
 ```bash
 # First, move into the MBLS207 folder (if you are working with Windows,
